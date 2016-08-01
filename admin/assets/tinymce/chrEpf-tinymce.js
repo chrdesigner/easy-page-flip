@@ -5,7 +5,7 @@
                 title : 'Easy Page Flip',
                 image : url + '/icon-magazine.png',
                 onclick : function() {
-                    tb_show("Insert Easy Page Flip", url+"/../tinymce/chrEpf-tinymce-page.php?a=a&width=670&height=400");
+                    tb_show( "Insert Easy Page Flip", url+ "/../tinymce/chrEpf-tinymce-page.php?a=a&width=670&height=400");
                 }
             });
         },
@@ -18,7 +18,7 @@
                 author : 'CHR Designer',
                 authorurl : 'http://www.chrdesigner.com/',
                 infourl : 'http://www.chrdesigner.com/demo/',
-                version : "1.0"
+                version : "1.1.1"
             };
         }
     });

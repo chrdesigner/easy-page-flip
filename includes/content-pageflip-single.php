@@ -9,11 +9,11 @@ global $post_type;
 
     if ('pageflip' == $post_type) { 
 
-	$meta_element_speed = get_post_meta( get_the_ID(), 'custom_element_grid_meta_speed', true );
-	$meta_element_starting = get_post_meta( get_the_ID(), 'custom_element_grid_starting', true );
-	$meta_element_direction = get_post_meta( get_the_ID(), 'custom_element_grid_meta_direction', true );
-	$meta_element_numbers = get_post_meta( get_the_ID(), 'custom_element_grid_meta_numbers', true);
-	$meta_element_closed = get_post_meta( get_the_ID(), 'custom_element_grid_meta_closed', true);
+		$meta_element_speed 	= get_post_meta( get_the_ID(), 'custom_element_grid_meta_speed', true );
+		$meta_element_starting 	= get_post_meta( get_the_ID(), 'custom_element_grid_starting', true );
+		$meta_element_direction = get_post_meta( get_the_ID(), 'custom_element_grid_meta_direction', true );
+		$meta_element_numbers	= get_post_meta( get_the_ID(), 'custom_element_grid_meta_numbers', true);
+		$meta_element_closed 	= get_post_meta( get_the_ID(), 'custom_element_grid_meta_closed', true);
 ?>
 
 	<script type="text/javascript">
@@ -36,12 +36,14 @@ global $post_type;
 
 		//Verifica as IDs das imagens da Galeria
 		$chr_get_ids = get_the_content();
+
 		preg_match('/\[gallery.*ids=.(.*).\]/', $chr_get_ids, $chr_ids);
 		$array_id = explode(",", $chr_ids[1]); $array = $array_id;
 		$print_ids = implode(",", $array);
 		
 		//Verifica se existe Link na Imagem
 		$chr_get_target = get_the_content();
+		
 		preg_match('/\[gallery.*link=.(.*).*ids=.(.*).\]/', $chr_get_target, $chr_target);
 		$array_target = explode(",", $chr_target[1]);
 		$targetarray = $array_target;

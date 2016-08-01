@@ -1,14 +1,14 @@
 === Easy Page Flip ===
 
 Contributors: chrdesigner
-Donate link: 
-Tags: pageflip, easy, list pageflip, show pageflip
+Donate link: http://www.chrdesigner.com/donate/
+Tags: PageFlip, List PageFlip, Virtual Magazine
 
 Requires at least: 3.6
 
-Tested up to: 4.1
+Tested up to: 4.6
 
-Stable tag: 1.1.0
+Stable tag: 1.2.1.1
 License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,6 +21,27 @@ Portugu&ecirc;s
 == Description ==
 
 Easy Page Flip is a plugin where you create a Virtual Magazine in few clicks.
+
+Attention: For oldest users if you have a problem with this new update, please remove your custom single and page.
+
+= Languages: =
+
+* English (Default)
+* Portugu&ecirc;s
+
+= Translate: =
+
+Do you want help me translate this plugin for your language? Please, send me your file <strong>.po</strong> for my email <mailto:chrdesigner@chrdesigner.com>
+
+= Look for all my plugins =
+
+Sign in for see the demos, all my plugins...
+
+Front-end: http://demo.chrdesigner.com/
+
+Back-end: http://demo.chrdesigner.com/login-demo/
+
+Username: demo - Password: demo
 
 == Installation ==
 
@@ -64,12 +85,13 @@ This plugin is licensed under GPL.
 2. Create Gallery
 3. Example Gallery
 4. Configure Easy Page Flip
-5. Shortcode Button Easy Page Flip
-6. Box Easy Page Flip
-7. Shortcode
-8. List Maganize
-9. Closed Magazine
-10. Open Magazine
+5. List all Magazines
+6. Shortcode Button Easy Page Flip
+7. Box Easy Page Flip
+8. Shortcode
+9. List Maganize
+10. Closed Magazine
+11. Open Magazine
 
 == Changelog ==
 
@@ -85,6 +107,20 @@ This plugin is licensed under GPL.
 * Update jQuery Booklet Version;
 * Add Custom Configuration per Magazine;
 
+= 1.2.0 =
+
+* Updated WordPress Version for 4.6;
+* Updated all scripts, styles and code;
+* Created new style page for listing magazines;
+
+= 1.2.1 =
+
+* Fixed Bug
+
+= 1.2.1.1 =
+
+* Fixed More Bug
+
 == Upgrade Notice ==
 
 = 1.0.0 =
@@ -98,6 +134,20 @@ This plugin is licensed under GPL.
 * Add new shortecode button;
 * Update jQuery Booklet Version;
 * Add Custom Configuration per Magazine;
+
+= 1.2.0 =
+
+* Updated WordPress Version for 4.6;
+* Updated all scripts, styles and code;
+* Created new style page for listing magazines;
+
+= 1.2.1 =
+
+* Fixed Bug
+
+= 1.2.1.1 =
+
+* Fixed More Bug
 
 == License ==
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YouTube Simple Gallery v1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-21 21:51-0300\n"
-"PO-Revision-Date: 2015-01-21 21:51-0300\n"
+"POT-Creation-Date: 2016-07-30 10:48-0300\n"
+"PO-Revision-Date: 2016-07-30 11:54-0300\n"
 "Last-Translator: Cesar Ribeiro <chrdesigner@chrdesigner.com>\n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -11,102 +11,112 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.8.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
-"X-Poedit-Basepath: ../\n"
+"X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:51
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:60
 msgid "Select the order:"
 msgstr "Selecione a ordem:"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:55
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:65
 msgid "Descending"
 msgstr "Decrescente"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:56
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:66
 msgid "Ascending"
 msgstr "Ascendente"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:61
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:71
 msgid "Select order by:"
 msgstr "Selecione a ordem por\""
 
-#: admin/tinymce/chrEpf-tinymce-page.php:65
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:75
 msgid "Date"
 msgstr "Data"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:66
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:76
 msgid "ID"
 msgstr "ID"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:67
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:77
+#: includes/edit-column-easy-pageflip.php:9
 msgid "Title"
 msgstr "Título"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:68
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:78
 msgid "Random"
 msgstr "Randômico"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:73
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:83
 msgid "List Magazines per Page:"
 msgstr "Listar quantidade de revistas por página:"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:89
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:90
 msgid "All"
 msgstr "Todos"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:94
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:95
 msgid "Image Size:"
 msgstr "Tamanho da Imagem:"
 
-#: admin/tinymce/chrEpf-tinymce-page.php:110
+#: admin/assets/tinymce/chrEpf-tinymce-page.php:111
 msgid "Submit"
 msgstr "Enviar"
 
-#: includes/content-pageflip-list.php:61
+#: includes/content-pageflip-list.php:69
 msgid "Not found..."
 msgstr "Não Encontrado..."
 
-#: includes/custom_post_easy_pageflip.php:8
+#: includes/custom_post_easy_pageflip.php:7
+#: includes/custom_post_easy_pageflip.php:19
 msgid "Magazines"
 msgstr "Revistas"
 
-#: includes/custom_post_easy_pageflip.php:9
+#: includes/custom_post_easy_pageflip.php:8
 msgid "Magazine"
 msgstr "Revista"
 
-#: includes/custom_post_easy_pageflip.php:10
+#: includes/custom_post_easy_pageflip.php:9
 msgid "Add New"
 msgstr "Adicionar Nova"
 
-#: includes/custom_post_easy_pageflip.php:11
-#: includes/custom_post_easy_pageflip.php:13
+#: includes/custom_post_easy_pageflip.php:10
+#: includes/custom_post_easy_pageflip.php:12
 msgid "Add New Magazine"
 msgstr "Adicionar Nova Revista"
 
-#: includes/custom_post_easy_pageflip.php:12
+#: includes/custom_post_easy_pageflip.php:11
 msgid "Edit Magazine"
 msgstr "Editar Revista"
 
-#: includes/custom_post_easy_pageflip.php:14
+#: includes/custom_post_easy_pageflip.php:13
 msgid "View Magazine"
 msgstr "Visualizar Revista"
 
-#: includes/custom_post_easy_pageflip.php:15
+#: includes/custom_post_easy_pageflip.php:14
 msgid "Search Magazines"
 msgstr "Procurar Revistas"
 
-#: includes/custom_post_easy_pageflip.php:16
+#: includes/custom_post_easy_pageflip.php:15
 msgid "Not found"
 msgstr "Não Encontrado"
 
-#: includes/custom_post_easy_pageflip.php:17
+#: includes/custom_post_easy_pageflip.php:16
 msgid "Not found in Trash"
 msgstr "Nenhum registro encontrado na lixeira"
+
+#: includes/edit-column-easy-pageflip.php:8
+msgid "Featured Image"
+msgstr "Imagem Destacada"
+
+#: includes/edit-column-easy-pageflip.php:10
+msgid "Gallery"
+msgstr "Galeria"
 
 #: includes/pageflip_meta_box.php:7 includes/pageflip_meta_box.php:22
 msgid "Configure PageFlip"

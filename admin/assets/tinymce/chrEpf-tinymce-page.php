@@ -13,19 +13,24 @@
 	//<![CDATA[
 		jQuery(document).ready(function($) {
 
-			$(".insert_epc").click (function () {
+			$('.insert_epc').on('click touchend', function(e) {
+				e.preventDefault();
+
 				var order = $('select.order option:selected').val();
 				var orderby = $('select.orderby option:selected').val();
 				var page = $('select.page option:selected').val();
 				var thumb = $('select.thumb option:selected').val();
+
 				tinymce.execCommand('mceInsertContent', false, '[chr-pageflip-list order="'+order+'" orderby="'+orderby+'" posts="'+page+'" thumb="'+thumb+'"]');
-				$("#TB_overlay, #TB_window").remove();
+				
+				$('#TB_overlay, #TB_window').remove();
+
 				return false;
 			});
 		
-			var	ajaxCont = $('#TB_ajaxContent'),
+			var	ajaxCont = $('#TB_ajaxContent');
 		
-			tbWindow = $('#TB_window');
+			var	tbWindow = $('#TB_window');
 		
 			ajaxCont.css({
 				padding: 0,
@@ -46,9 +51,14 @@
 </head>
 <body>
 	<fieldset>  
-		<legend>Easy Page Flip</legend>
+	
+		<legend>
+			<img src="<?php echo plugins_url( 'icon.png' , __FILE__ );?>" alt="Easy Page Flip." title="Easy Page Flip." />
+			<h4>Easy Page Flip</h4>
+		</legend>
 		
 		<h3><?php echo __('Select the order:','easy-page-flip' );?></h3>
+		
 		<ul class="ul-list-order">
 			<li>
 				<select class="order" style="width: 30%; display: inline-block;">
@@ -74,18 +84,9 @@
 		<ul id="ul-list-page">
 			<li>
 				<select class="page" style="width: 30%; display: inline-block;">
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6" selected>6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
-					<option value="10">10</option>
-					<option value="11">11</option>
-					<option value="12">12</option>
+				<?php for ($x = 1; $x <= 10; $x++) { ?>
+					<option value="<?php echo $x;?>"<?php if($x == 6){ echo ' selected="selected"';};?>><?php echo $x;?></option>
+				<?php }; ?>
 					<option value="-1"><?php echo __('All','easy-page-flip' );?></option>
   				</select> 
 			</li>
